@@ -1,7 +1,12 @@
 import "./App.css";
+import BucketList from "./components/BucketList";
 
 function App() {
-	return <div className="App"></div>;
+	return (
+		<div className="App">
+			<BucketList />
+		</div>
+	);
 }
 
 export default App;
